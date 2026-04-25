@@ -1,0 +1,1 @@
+{"bounds": [[51, -4], [59, 10]], "dataset": "mixed_layer", "label": "Mixed Layer Depth (m) (sample)", "cmap": "viridis", "opacity": 0.7, "min": 0, "max": 300}
