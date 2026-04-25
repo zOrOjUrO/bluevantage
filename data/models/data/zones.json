@@ -1,0 +1,5438 @@
+[
+  {
+    "hex_id": "86196892fffffff",
+    "lat": 53.26141633077422,
+    "lng": 5.006676726728939,
+    "zone_score": 48.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.9334228038787842
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06657712161540985
+      },
+      {
+        "name": "Herring",
+        "prob": 0.0
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 11.417259216308594,
+    "yield_high_kg": 19.028766632080078,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 77.63353797676561
+  },
+  {
+    "hex_id": "86196891fffffff",
+    "lat": 53.224364557707716,
+    "lng": 4.857692062487791,
+    "zone_score": 47.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.930607259273529
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06939273327589035
+      },
+      {
+        "name": "Herring",
+        "prob": 0.0
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 10.920963287353516,
+    "yield_high_kg": 18.20160675048828,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 79.9426135585029
+  },
+  {
+    "hex_id": "861968907ffffff",
+    "lat": 53.26644622277507,
+    "lng": 4.918551762405821,
+    "zone_score": 47.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.930607259273529
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06939273327589035
+      },
+      {
+        "name": "Herring",
+        "prob": 0.0
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 10.920963287353516,
+    "yield_high_kg": 18.20160675048828,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 81.27919209747176
+  },
+  {
+    "hex_id": "861968927ffffff",
+    "lat": 53.30848619701167,
+    "lng": 4.979515871324178,
+    "zone_score": 47.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.930607259273529
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06939273327589035
+      },
+      {
+        "name": "Herring",
+        "prob": 0.0
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 10.920963287353516,
+    "yield_high_kg": 18.20160675048828,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 83.05596092007812
+  },
+  {
+    "hex_id": "861968a6fffffff",
+    "lat": 52.698266044459686,
+    "lng": 5.2423650629239145,
+    "zone_score": 44.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 24.510813695405925
+  },
+  {
+    "hex_id": "861968a67ffffff",
+    "lat": 52.74588134933255,
+    "lng": 5.215572313254631,
+    "zone_score": 43.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 27.593041272600736
+  },
+  {
+    "hex_id": "861969d1fffffff",
+    "lat": 52.56065472637209,
+    "lng": 5.235216386998078,
+    "zone_score": 43.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 27.147013876530014
+  },
+  {
+    "hex_id": "861969d17ffffff",
+    "lat": 52.60837775859579,
+    "lng": 5.208476199634663,
+    "zone_score": 43.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 27.15136820574205
+  },
+  {
+    "hex_id": "861968a4fffffff",
+    "lat": 52.65605239593133,
+    "lng": 5.181701489924658,
+    "zone_score": 43.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 28.28773000376414
+  },
+  {
+    "hex_id": "861969dafffffff",
+    "lat": 52.566112082961396,
+    "lng": 5.147931461198685,
+    "zone_score": 43.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 32.39403498060184
+  },
+  {
+    "hex_id": "861969c07ffffff",
+    "lat": 52.470595969553685,
+    "lng": 5.2014103078088025,
+    "zone_score": 43.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 34.38594146962385
+  },
+  {
+    "hex_id": "861969c37ffffff",
+    "lat": 52.51837820281215,
+    "lng": 5.1746881010451755,
+    "zone_score": 43.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 32.929920727945735
+  },
+  {
+    "hex_id": "861969d8fffffff",
+    "lat": 52.52380543845888,
+    "lng": 5.087488861843571,
+    "zone_score": 43.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 37.937940574983855
+  },
+  {
+    "hex_id": "861969c17ffffff",
+    "lat": 52.47606074273852,
+    "lng": 5.1142618011787,
+    "zone_score": 43.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 38.85385032741604
+  },
+  {
+    "hex_id": "861969c1fffffff",
+    "lat": 52.42826771093749,
+    "lng": 5.141000341799917,
+    "zone_score": 43.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 40.534434406523424
+  },
+  {
+    "hex_id": "861969ca7ffffff",
+    "lat": 52.48145798678443,
+    "lng": 5.0271482775122545,
+    "zone_score": 43.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 43.66913376068682
+  },
+  {
+    "hex_id": "861969cafffffff",
+    "lat": 52.43370250793695,
+    "lng": 5.053937363936432,
+    "zone_score": 43.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 44.86358370683281
+  },
+  {
+    "hex_id": "861969cf7ffffff",
+    "lat": 52.385898710251496,
+    "lng": 5.080692086217124,
+    "zone_score": 42.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 46.708141689958715
+  },
+  {
+    "hex_id": "861969cd7ffffff",
+    "lat": 52.34348912945754,
+    "lng": 5.020485417702631,
+    "zone_score": 42.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.007851624861359596
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011373661982361227
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0011196896666660905
+      },
+      {
+        "name": "Herring",
+        "prob": 0.18366116285324097
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.8072537779808044
+      }
+    ],
+    "yield_low_kg": 29.150728225708008,
+    "yield_high_kg": 48.58454895019531,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 52.89874636954278
+  },
+  {
+    "hex_id": "86196c2d7ffffff",
+    "lat": 53.30342559404184,
+    "lng": 5.067728914209348,
+    "zone_score": 42.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.7703968286514282
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06664316356182098
+      },
+      {
+        "name": "Herring",
+        "prob": 0.11664047837257385
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0463196262717247
+      }
+    ],
+    "yield_low_kg": 10.837056159973145,
+    "yield_high_kg": 18.06175994873047,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 79.75850674563587
+  },
+  {
+    "hex_id": "86196c28fffffff",
+    "lat": 53.35048432014164,
+    "lng": 5.040584519758376,
+    "zone_score": 41.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.7703968286514282
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.06664316356182098
+      },
+      {
+        "name": "Herring",
+        "prob": 0.11664047837257385
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0463196262717247
+      }
+    ],
+    "yield_low_kg": 10.837056159973145,
+    "yield_high_kg": 18.06175994873047,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 85.24505442884153
+  },
+  {
+    "hex_id": "861968a47ffffff",
+    "lat": 52.7036786137107,
+    "lng": 5.154892202687396,
+    "zone_score": 40.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 30.42679228508604
+  },
+  {
+    "hex_id": "861968b5fffffff",
+    "lat": 52.79344819416052,
+    "lng": 5.188744896248475,
+    "zone_score": 40.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 31.37391053015291
+  },
+  {
+    "hex_id": "861968a77ffffff",
+    "lat": 52.75125638756166,
+    "lng": 5.128048282660271,
+    "zone_score": 39.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 33.37381640448015
+  },
+  {
+    "hex_id": "861969da7ffffff",
+    "lat": 52.61379758487513,
+    "lng": 5.121140333365851,
+    "zone_score": 39.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 32.820833665751884
+  },
+  {
+    "hex_id": "861968a5fffffff",
+    "lat": 52.661434683724075,
+    "lng": 5.094314662561738,
+    "zone_score": 39.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 34.17181994282216
+  },
+  {
+    "hex_id": "861968a57ffffff",
+    "lat": 52.709023354975,
+    "lng": 5.067454393720192,
+    "zone_score": 39.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 36.34177714773582
+  },
+  {
+    "hex_id": "861968b57ffffff",
+    "lat": 52.84096655502661,
+    "lng": 5.1618827563634015,
+    "zone_score": 39.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 35.62936700301335
+  },
+  {
+    "hex_id": "861969d87ffffff",
+    "lat": 52.57150177281053,
+    "lng": 5.060681469085843,
+    "zone_score": 39.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 37.84005865241765
+  },
+  {
+    "hex_id": "861968a2fffffff",
+    "lat": 52.798785693406714,
+    "lng": 5.101169674498513,
+    "zone_score": 39.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 36.9336471847567
+  },
+  {
+    "hex_id": "861968b0fffffff",
+    "lat": 52.88843640830725,
+    "lng": 5.134985837974412,
+    "zone_score": 39.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 40.20693204041737
+  },
+  {
+    "hex_id": "861968a0fffffff",
+    "lat": 52.75656357438992,
+    "lng": 5.040559471693697,
+    "zone_score": 39.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 39.19278561198043
+  },
+  {
+    "hex_id": "86196c29fffffff",
+    "lat": 53.35550734194629,
+    "lng": 4.952319696511003,
+    "zone_score": 39.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.12560409307479858
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011348530824761838
+      },
+      {
+        "name": "Cod",
+        "prob": 0.006082551088184118
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4735430181026459
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.39465686678886414
+      }
+    ],
+    "yield_low_kg": 41.61157989501953,
+    "yield_high_kg": 69.35263061523438,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 88.4876054953367
+  },
+  {
+    "hex_id": "861968aefffffff",
+    "lat": 52.666749257741294,
+    "lng": 5.006963104065067,
+    "zone_score": 39.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 40.06392083122392
+  },
+  {
+    "hex_id": "861969db7ffffff",
+    "lat": 52.619149720802724,
+    "lng": 5.033839568116263,
+    "zone_score": 39.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 38.564265431561886
+  },
+  {
+    "hex_id": "861968ae7ffffff",
+    "lat": 52.71430035922759,
+    "lng": 4.980052021981896,
+    "zone_score": 39.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 42.25456755561068
+  },
+  {
+    "hex_id": "861968a27ffffff",
+    "lat": 52.84626650746229,
+    "lng": 5.074256322775315,
+    "zone_score": 39.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 40.94472614579477
+  },
+  {
+    "hex_id": "86196c287ffffff",
+    "lat": 53.39749431099108,
+    "lng": 5.01340476955376,
+    "zone_score": 39.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.12560409307479858
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00011348530824761838
+      },
+      {
+        "name": "Cod",
+        "prob": 0.006082551088184118
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4735430181026459
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.39465686678886414
+      }
+    ],
+    "yield_low_kg": 41.61157989501953,
+    "yield_high_kg": 69.35263061523438,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 90.73245581933206
+  },
+  {
+    "hex_id": "861969d9fffffff",
+    "lat": 52.52916512134399,
+    "lng": 5.0003247724307345,
+    "zone_score": 39.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 43.17684047882935
+  },
+  {
+    "hex_id": "861969d97ffffff",
+    "lat": 52.57682388646351,
+    "lng": 4.973466794098173,
+    "zone_score": 39.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 43.40867286881169
+  },
+  {
+    "hex_id": "861968a07ffffff",
+    "lat": 52.80405531802512,
+    "lng": 5.013629841253566,
+    "zone_score": 39.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 42.58632681364285
+  },
+  {
+    "hex_id": "861968acfffffff",
+    "lat": 52.62443425728767,
+    "lng": 4.94657428784101,
+    "zone_score": 39.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 44.351393270922706
+  },
+  {
+    "hex_id": "861968a1fffffff",
+    "lat": 52.761803001157666,
+    "lng": 4.953106266835868,
+    "zone_score": 39.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 45.033628531381275
+  },
+  {
+    "hex_id": "861968ac7ffffff",
+    "lat": 52.671996209257095,
+    "lng": 4.919647198905929,
+    "zone_score": 39.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 45.95946135989819
+  },
+  {
+    "hex_id": "861968b1fffffff",
+    "lat": 52.893698806237744,
+    "lng": 5.047308171981896,
+    "zone_score": 39.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 45.28546668795002
+  },
+  {
+    "hex_id": "861968a37ffffff",
+    "lat": 52.851498562230155,
+    "lng": 4.986665447089635,
+    "zone_score": 39.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 46.401725326435525
+  },
+  {
+    "hex_id": "861968af7ffffff",
+    "lat": 52.719509718107524,
+    "lng": 4.892685472459717,
+    "zone_score": 39.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 48.16454993986231
+  },
+  {
+    "hex_id": "861968a17ffffff",
+    "lat": 52.809257159721255,
+    "lng": 4.9261257835154995,
+    "zone_score": 39.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 48.29791324312221
+  },
+  {
+    "hex_id": "861968367ffffff",
+    "lat": 52.58207851512601,
+    "lng": 4.8862878187095085,
+    "zone_score": 39.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 49.056749971623475
+  },
+  {
+    "hex_id": "861968adfffffff",
+    "lat": 52.62965128590022,
+    "lng": 4.859344875524711,
+    "zone_score": 39.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 50.16572943170493
+  },
+  {
+    "hex_id": "861968ad7ffffff",
+    "lat": 52.67717563020633,
+    "lng": 4.832367330579361,
+    "zone_score": 39.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 51.85594536066942
+  },
+  {
+    "hex_id": "861968aafffffff",
+    "lat": 52.766974759868795,
+    "lng": 4.865689053589456,
+    "zone_score": 39.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 50.88746874259938
+  },
+  {
+    "hex_id": "861968a8fffffff",
+    "lat": 52.72465152391422,
+    "lng": 4.805355129158949,
+    "zone_score": 38.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.07137663091378
+  },
+  {
+    "hex_id": "861968aa7ffffff",
+    "lat": 52.81439131086399,
+    "lng": 4.838657887302404,
+    "zone_score": 38.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.04846906190432
+  },
+  {
+    "hex_id": "861968327ffffff",
+    "lat": 52.682287613181,
+    "lng": 4.745123881595075,
+    "zone_score": 38.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 57.75189404109533
+  },
+  {
+    "hex_id": "861968a87ffffff",
+    "lat": 52.772078943187324,
+    "lng": 4.778308216469751,
+    "zone_score": 38.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 56.74907620934527
+  },
+  {
+    "hex_id": "86196c66fffffff",
+    "lat": 53.36046203473815,
+    "lng": 4.86409153968022,
+    "zone_score": 38.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.1222769021987915
+      },
+      {
+        "name": "Sole",
+        "prob": 5.447802323033102e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.006118281278759241
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4750007688999176
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3965495824813843
+      }
+    ],
+    "yield_low_kg": 40.36305236816406,
+    "yield_high_kg": 67.2717514038086,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 91.9903110951353
+  },
+  {
+    "hex_id": "861968a9fffffff",
+    "lat": 52.72972586960387,
+    "lng": 4.718061375093803,
+    "zone_score": 38.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.97483470481999
+  },
+  {
+    "hex_id": "861968bafffffff",
+    "lat": 52.89889328364715,
+    "lng": 4.959666233810561,
+    "zone_score": 38.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 50.5418850147181
+  },
+  {
+    "hex_id": "861968b17ffffff",
+    "lat": 52.94108256653451,
+    "lng": 5.020325166527348,
+    "zone_score": 38.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 49.86818626845754
+  },
+  {
+    "hex_id": "861968b8fffffff",
+    "lat": 52.856662811401,
+    "lng": 4.899110516828816,
+    "zone_score": 38.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 51.95443900961904
+  },
+  {
+    "hex_id": "861968a97ffffff",
+    "lat": 52.77711564443357,
+    "lng": 4.690964138995226,
+    "zone_score": 38.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 62.615173030366314
+  },
+  {
+    "hex_id": "86196806fffffff",
+    "lat": 52.73473284878581,
+    "lng": 4.63080459227817,
+    "zone_score": 38.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.87478548789522
+  },
+  {
+    "hex_id": "861968ba7ffffff",
+    "lat": 52.94623945920965,
+    "lng": 4.93263214594366,
+    "zone_score": 38.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.93190725328214
+  },
+  {
+    "hex_id": "861968b87ffffff",
+    "lat": 52.90401993297142,
+    "lng": 4.872060411503335,
+    "zone_score": 38.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 55.9248314484064
+  },
+  {
+    "hex_id": "861968b9fffffff",
+    "lat": 52.86175934770847,
+    "lng": 4.811591918526034,
+    "zone_score": 38.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 57.57399276736244
+  },
+  {
+    "hex_id": "861968bb7ffffff",
+    "lat": 52.951328501498054,
+    "lng": 4.844975412185924,
+    "zone_score": 38.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 60.14557971196401
+  },
+  {
+    "hex_id": "861968ab7ffffff",
+    "lat": 52.81945786448178,
+    "lng": 4.751226537639145,
+    "zone_score": 38.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.82561249769509
+  },
+  {
+    "hex_id": "86196885fffffff",
+    "lat": 52.99353706614185,
+    "lng": 4.905563127935004,
+    "zone_score": 38.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.51512568583065
+  },
+  {
+    "hex_id": "861968b97ffffff",
+    "lat": 52.909078847309054,
+    "lng": 4.78449109210802,
+    "zone_score": 37.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 61.39992363864086
+  },
+  {
+    "hex_id": "861969c87ffffff",
+    "lat": 52.43906988972001,
+    "lng": 4.966909583661023,
+    "zone_score": 37.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 49.523182659104805
+  },
+  {
+    "hex_id": "86196816fffffff",
+    "lat": 52.866788264545555,
+    "lng": 4.724110037715403,
+    "zone_score": 37.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 63.24148812568343
+  },
+  {
+    "hex_id": "8619688efffffff",
+    "lat": 52.99858849433652,
+    "lng": 4.81785546344306,
+    "zone_score": 37.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 64.56631458980868
+  },
+  {
+    "hex_id": "86196814fffffff",
+    "lat": 52.8244569142591,
+    "lng": 4.6638321185481235,
+    "zone_score": 37.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.62127589577024
+  },
+  {
+    "hex_id": "861968167ffffff",
+    "lat": 52.91407012041747,
+    "lng": 4.696958661667811,
+    "zone_score": 37.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 66.94353380389005
+  },
+  {
+    "hex_id": "8619688cfffffff",
+    "lat": 52.95634978686301,
+    "lng": 4.757355352816325,
+    "zone_score": 37.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.47234728929271
+  },
+  {
+    "hex_id": "861969c8fffffff",
+    "lat": 52.39130366027937,
+    "lng": 4.9937146653685645,
+    "zone_score": 37.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 50.92928682797541
+  },
+  {
+    "hex_id": "861969537ffffff",
+    "lat": 52.354172406968345,
+    "lng": 4.846737366825965,
+    "zone_score": 37.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 61.460593597630016
+  },
+  {
+    "hex_id": "861968067ffffff",
+    "lat": 52.78208495758063,
+    "lng": 4.603657203678382,
+    "zone_score": 37.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 68.48360143366048
+  },
+  {
+    "hex_id": "86196826fffffff",
+    "lat": 52.40191174787047,
+    "lng": 4.819866434422,
+    "zone_score": 37.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 60.23396649077737
+  },
+  {
+    "hex_id": "861968147ffffff",
+    "lat": 52.87174965596078,
+    "lng": 4.636665258922946,
+    "zone_score": 37.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 68.94410803959637
+  },
+  {
+    "hex_id": "861969507ffffff",
+    "lat": 52.30638477430472,
+    "lng": 4.8735739860560345,
+    "zone_score": 37.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 63.16568271233556
+  },
+  {
+    "hex_id": "861969c97ffffff",
+    "lat": 52.444369947057105,
+    "lng": 4.879917380955833,
+    "zone_score": 37.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.427163694505815
+  },
+  {
+    "hex_id": "861969c9fffffff",
+    "lat": 52.39664130913177,
+    "lng": 4.906772655265369,
+    "zone_score": 37.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 55.46168319217586
+  },
+  {
+    "hex_id": "861969527ffffff",
+    "lat": 52.34886436172219,
+    "lng": 4.933593581043991,
+    "zone_score": 37.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 57.033574951798286
+  },
+  {
+    "hex_id": "861968177ffffff",
+    "lat": 52.91899384670922,
+    "lng": 4.6094635052119495,
+    "zone_score": 37.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 72.53900936223407
+  },
+  {
+    "hex_id": "861969517ffffff",
+    "lat": 52.311663345259234,
+    "lng": 4.786803592374677,
+    "zone_score": 37.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 67.50420079758325
+  },
+  {
+    "hex_id": "86196824fffffff",
+    "lat": 52.35941335654623,
+    "lng": 4.759917152097107,
+    "zone_score": 37.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 66.12009430500873
+  },
+  {
+    "hex_id": "86196952fffffff",
+    "lat": 52.30103913060229,
+    "lng": 4.960380212416507,
+    "zone_score": 37.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.10139108560351
+  },
+  {
+    "hex_id": "86196825fffffff",
+    "lat": 52.36458730245511,
+    "lng": 4.673133312932306,
+    "zone_score": 37.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 70.96532391100311
+  },
+  {
+    "hex_id": "8619695a7ffffff",
+    "lat": 52.31687493510173,
+    "lng": 4.700069406956799,
+    "zone_score": 37.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 72.06647591570534
+  },
+  {
+    "hex_id": "8619695b7ffffff",
+    "lat": 52.322019636113765,
+    "lng": 4.613371804409652,
+    "zone_score": 36.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 76.81174585687793
+  },
+  {
+    "hex_id": "8619689afffffff",
+    "lat": 53.22929579442133,
+    "lng": 4.769692135687491,
+    "zone_score": 36.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 84.15133814841877
+  },
+  {
+    "hex_id": "861968917ffffff",
+    "lat": 53.27140792343172,
+    "lng": 4.830463510968263,
+    "zone_score": 36.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 85.17354122157374
+  },
+  {
+    "hex_id": "86196899fffffff",
+    "lat": 53.19197530605544,
+    "lng": 4.621151024549005,
+    "zone_score": 36.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 88.2415006744674
+  },
+  {
+    "hex_id": "861968267ffffff",
+    "lat": 52.44960277137409,
+    "lng": 4.79296113483616,
+    "zone_score": 36.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.51398869831192
+  },
+  {
+    "hex_id": "861968357ffffff",
+    "lat": 52.544839765126504,
+    "lng": 4.739047217698948,
+    "zone_score": 36.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.648880773315874
+  },
+  {
+    "hex_id": "86196835fffffff",
+    "lat": 52.49724545214006,
+    "lng": 4.76602141398288,
+    "zone_score": 36.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.31770333622753
+  },
+  {
+    "hex_id": "86196c657ffffff",
+    "lat": 53.37016681298056,
+    "lng": 4.687746805468676,
+    "zone_score": 36.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 99.66177106290027
+  },
+  {
+    "hex_id": "861968987ffffff",
+    "lat": 53.23415905084271,
+    "lng": 4.681729532536729,
+    "zone_score": 36.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 88.54820131362561
+  },
+  {
+    "hex_id": "86196836fffffff",
+    "lat": 52.53445734230842,
+    "lng": 4.91319621476936,
+    "zone_score": 36.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 48.57055673894878
+  },
+  {
+    "hex_id": "8619689a7ffffff",
+    "lat": 53.27630152743742,
+    "lng": 4.742412365644008,
+    "zone_score": 36.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 89.28328762810699
+  },
+  {
+    "hex_id": "861969cb7ffffff",
+    "lat": 52.486787792167604,
+    "lng": 4.9400701182607145,
+    "zone_score": 36.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 48.72751018093772
+  },
+  {
+    "hex_id": "861968277ffffff",
+    "lat": 52.45476845474859,
+    "lng": 4.70604122334161,
+    "zone_score": 36.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 64.73950604258603
+  },
+  {
+    "hex_id": "86196822fffffff",
+    "lat": 52.502373490960515,
+    "lng": 4.679051627006995,
+    "zone_score": 36.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 64.77002961178026
+  },
+  {
+    "hex_id": "86196c64fffffff",
+    "lat": 53.318402575491376,
+    "lng": 4.803199657106983,
+    "zone_score": 36.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 90.4359955769067
+  },
+  {
+    "hex_id": "861968247ffffff",
+    "lat": 52.4071150682095,
+    "lng": 4.7329963803827315,
+    "zone_score": 36.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.19241807410702
+  },
+  {
+    "hex_id": "86196831fffffff",
+    "lat": 52.59743841307294,
+    "lng": 4.624968900206061,
+    "zone_score": 36.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 66.26309618930414
+  },
+  {
+    "hex_id": "8619689b7ffffff",
+    "lat": 53.281127130148626,
+    "lng": 4.654398718628337,
+    "zone_score": 36.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 93.57932946669695
+  },
+  {
+    "hex_id": "861968937ffffff",
+    "lat": 53.31347849269748,
+    "lng": 4.891339320696817,
+    "zone_score": 36.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 86.62613829898898
+  },
+  {
+    "hex_id": "861968227ffffff",
+    "lat": 52.549930151938874,
+    "lng": 4.652027537335293,
+    "zone_score": 36.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.28203251743672
+  },
+  {
+    "hex_id": "861968377ffffff",
+    "lat": 52.58726575066145,
+    "lng": 4.799144924419293,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.75845165933824
+  },
+  {
+    "hex_id": "86196898fffffff",
+    "lat": 53.187142266022406,
+    "lng": 4.709025062727919,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 83.57566984872653
+  },
+  {
+    "hex_id": "86196c65fffffff",
+    "lat": 53.32325854045191,
+    "lng": 4.715097274305703,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 94.45581580298473
+  },
+  {
+    "hex_id": "86196834fffffff",
+    "lat": 52.49205025002285,
+    "lng": 4.853027703912284,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 53.95938367387669
+  },
+  {
+    "hex_id": "86196c647ffffff",
+    "lat": 53.36534849327492,
+    "lng": 4.7759004445746935,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 95.72390875105145
+  },
+  {
+    "hex_id": "861968347ffffff",
+    "lat": 52.539682192851295,
+    "lng": 4.826103569853376,
+    "zone_score": 35.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.07150867714463
+  },
+  {
+    "hex_id": "86196832fffffff",
+    "lat": 52.63480089886812,
+    "lng": 4.772151713172019,
+    "zone_score": 35.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 55.997571952303225
+  },
+  {
+    "hex_id": "861968257ffffff",
+    "lat": 52.412251362511405,
+    "lng": 4.646162869712512,
+    "zone_score": 35.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 70.29667078462714
+  },
+  {
+    "hex_id": "86196820fffffff",
+    "lat": 52.459867089906474,
+    "lng": 4.619158023526887,
+    "zone_score": 35.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 70.07170774150987
+  },
+  {
+    "hex_id": "86196c6efffffff",
+    "lat": 53.32804648330049,
+    "lng": 4.627032565005946,
+    "zone_score": 35.7,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.11125154048204422
+      },
+      {
+        "name": "Sole",
+        "prob": 1.233391412824858e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.0058557637967169285
+      },
+      {
+        "name": "Herring",
+        "prob": 0.48372402787208557
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.3991563618183136
+      }
+    ],
+    "yield_low_kg": 36.306732177734375,
+    "yield_high_kg": 60.51122283935547,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 98.65924832539595
+  },
+  {
+    "hex_id": "86196830fffffff",
+    "lat": 52.592385685587644,
+    "lng": 4.712038491743649,
+    "zone_score": 35.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 60.4974799142272
+  },
+  {
+    "hex_id": "861968307ffffff",
+    "lat": 52.63988318907303,
+    "lng": 4.684995181798601,
+    "zone_score": 35.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 61.84085512859327
+  },
+  {
+    "hex_id": "861968337ffffff",
+    "lat": 52.687332251426604,
+    "lng": 4.657917233467943,
+    "zone_score": 35.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.10041651129722595
+      },
+      {
+        "name": "Sole",
+        "prob": 0.001517025870271027
+      },
+      {
+        "name": "Cod",
+        "prob": 0.014870332553982735
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6519340872764587
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.23126208782196045
+      }
+    ],
+    "yield_low_kg": 27.951318740844727,
+    "yield_high_kg": 46.585533142089844,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 63.64637490080992
+  },
+  {
+    "hex_id": "8619688e7ffffff",
+    "lat": 53.045799889131594,
+    "lng": 4.790700509760643,
+    "zone_score": 34.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 69.1474858303385
+  },
+  {
+    "hex_id": "8619688c7ffffff",
+    "lat": 53.003572143857156,
+    "lng": 4.730184645339167,
+    "zone_score": 34.6,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 69.74690630200544
+  },
+  {
+    "hex_id": "8619688dfffffff",
+    "lat": 52.96130340942633,
+    "lng": 4.669772354386757,
+    "zone_score": 34.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 70.88575325296739
+  },
+  {
+    "hex_id": "8619688f7ffffff",
+    "lat": 53.050745896066985,
+    "lng": 4.702978914284976,
+    "zone_score": 34.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 74.18754693481544
+  },
+  {
+    "hex_id": "8619688d7ffffff",
+    "lat": 53.00848810918994,
+    "lng": 4.642551060683456,
+    "zone_score": 34.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 75.02918893484926
+  },
+  {
+    "hex_id": "861968857ffffff",
+    "lat": 53.04078608195762,
+    "lng": 4.8784591241493125,
+    "zone_score": 33.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 64.24891172429507
+  },
+  {
+    "hex_id": "861968877ffffff",
+    "lat": 53.082942388928174,
+    "lng": 4.939166465057107,
+    "zone_score": 33.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 64.52838547012253
+  },
+  {
+    "hex_id": "86196888fffffff",
+    "lat": 53.05562419761427,
+    "lng": 4.615294725290376,
+    "zone_score": 33.4,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08699780702590942
+      },
+      {
+        "name": "Sole",
+        "prob": 8.89736256795004e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005910469684749842
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4967113137245178
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.4102914035320282
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 79.34127432315336
+  },
+  {
+    "hex_id": "86196880fffffff",
+    "lat": 53.08798648445964,
+    "lng": 4.851320078870123,
+    "zone_score": 33.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 69.10112293379922
+  },
+  {
+    "hex_id": "86196882fffffff",
+    "lat": 53.130131769133044,
+    "lng": 4.912043483408049,
+    "zone_score": 33.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 69.60851372814217
+  },
+  {
+    "hex_id": "86196881fffffff",
+    "lat": 53.09296266381633,
+    "lng": 4.763510495544129,
+    "zone_score": 33.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 73.858118356995
+  },
+  {
+    "hex_id": "861968807ffffff",
+    "lat": 53.13513825173835,
+    "lng": 4.824145936299663,
+    "zone_score": 33.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 74.04735782220155
+  },
+  {
+    "hex_id": "861968827ffffff",
+    "lat": 53.17727249921477,
+    "lng": 4.884885367912642,
+    "zone_score": 33.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17512963712215424
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0005405011470429599
+      },
+      {
+        "name": "Cod",
+        "prob": 0.01180387195199728
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6953978538513184
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11712808907032013
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 74.75094426450505
+  },
+  {
+    "hex_id": "861968837ffffff",
+    "lat": 53.18224136217112,
+    "lng": 4.7969366405588785,
+    "zone_score": 32.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.17519322037696838
+      },
+      {
+        "name": "Sole",
+        "prob": 0.00017775481683202088
+      },
+      {
+        "name": "Cod",
+        "prob": 0.011808156967163086
+      },
+      {
+        "name": "Herring",
+        "prob": 0.6956502795219421
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.11717060953378677
+      }
+    ],
+    "yield_low_kg": 28.01956558227539,
+    "yield_high_kg": 46.699275970458984,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 79.06892045667611
+  },
+  {
+    "hex_id": "861968b07ffffff",
+    "lat": 52.935857730671515,
+    "lng": 5.108054085373886,
+    "zone_score": 32.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 45.00657692424055
+  },
+  {
+    "hex_id": "861968b37ffffff",
+    "lat": 52.98323049908004,
+    "lng": 5.081087442771229,
+    "zone_score": 32.3,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 49.9626714706971
+  },
+  {
+    "hex_id": "86196884fffffff",
+    "lat": 52.98841776544512,
+    "lng": 4.9933072507386935,
+    "zone_score": 32.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 54.63049716266664
+  },
+  {
+    "hex_id": "86196886fffffff",
+    "lat": 53.0305546907843,
+    "lng": 5.054085854293068,
+    "zone_score": 32.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 55.03144717281829
+  },
+  {
+    "hex_id": "861968867ffffff",
+    "lat": 53.07783028332547,
+    "lng": 5.02704926398329,
+    "zone_score": 31.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 60.183054290471674
+  },
+  {
+    "hex_id": "861968847ffffff",
+    "lat": 53.035704380352314,
+    "lng": 4.966254368860964,
+    "zone_score": 31.8,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 59.52791207703405
+  },
+  {
+    "hex_id": "86196895fffffff",
+    "lat": 53.12505725453366,
+    "lng": 4.9999776158028775,
+    "zone_score": 31.5,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08698200434446335
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0002705921942833811
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005909396335482597
+      },
+      {
+        "name": "Herring",
+        "prob": 0.49662110209465027
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.41021689772605896
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 65.3966459242778
+  },
+  {
+    "hex_id": "861968957ffffff",
+    "lat": 53.17223558252691,
+    "lng": 4.972870853629999,
+    "zone_score": 31.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.5451225638389587
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.07917080074548721
+      },
+      {
+        "name": "Herring",
+        "prob": 0.37570664286613464
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 5.349493980407715,
+    "yield_high_kg": 8.915823936462402,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 70.65732303727323
+  },
+  {
+    "hex_id": "861968977ffffff",
+    "lat": 53.214297764101296,
+    "lng": 5.033802319300682,
+    "zone_score": 31.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.5451225638389587
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.07917080074548721
+      },
+      {
+        "name": "Herring",
+        "prob": 0.37570664286613464
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 5.349493980407715,
+    "yield_high_kg": 8.915823936462402,
+    "slots_total": 5,
+    "slots_filled": 2,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 72.22356626133447
+  },
+  {
+    "hex_id": "86196890fffffff",
+    "lat": 53.219365245710335,
+    "lng": 4.945728921260132,
+    "zone_score": 31.0,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.5451225638389587
+      },
+      {
+        "name": "Sole",
+        "prob": 0.0
+      },
+      {
+        "name": "Cod",
+        "prob": 0.07917080074548721
+      },
+      {
+        "name": "Herring",
+        "prob": 0.37570664286613464
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.0
+      }
+    ],
+    "yield_low_kg": 5.349493980407715,
+    "yield_high_kg": 8.915823936462402,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 75.95420595755253
+  },
+  {
+    "hex_id": "861968817ffffff",
+    "lat": 53.14007679661101,
+    "lng": 4.736285365118374,
+    "zone_score": 30.2,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08699780702590942
+      },
+      {
+        "name": "Sole",
+        "prob": 8.89736256795004e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005910469684749842
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4967113137245178
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.4102914035320282
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 0,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 78.67390321333947
+  },
+  {
+    "hex_id": "8619688afffffff",
+    "lat": 53.09787102155567,
+    "lng": 4.6757381041824875,
+    "zone_score": 30.1,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08699780702590942
+      },
+      {
+        "name": "Sole",
+        "prob": 8.89736256795004e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005910469684749842
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4967113137245178
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.4102914035320282
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 3,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 78.76512769469437
+  },
+  {
+    "hex_id": "8619688a7ffffff",
+    "lat": 53.1449474986732,
+    "lng": 4.648462159480705,
+    "zone_score": 29.9,
+    "species": [
+      {
+        "name": "Plaice",
+        "prob": 0.08699780702590942
+      },
+      {
+        "name": "Sole",
+        "prob": 8.89736256795004e-05
+      },
+      {
+        "name": "Cod",
+        "prob": 0.005910469684749842
+      },
+      {
+        "name": "Herring",
+        "prob": 0.4967113137245178
+      },
+      {
+        "name": "Mackerel",
+        "prob": 0.4102914035320282
+      }
+    ],
+    "yield_low_kg": 27.79793357849121,
+    "yield_high_kg": 46.32988739013672,
+    "slots_total": 5,
+    "slots_filled": 1,
+    "wave_height_m": 1.5,
+    "wind_kmh": 18,
+    "is_mpa": false,
+    "distance_km": 83.45612149959629
+  }
+]
