@@ -1,4 +1,4 @@
-# BlueVantage: Fishing Zone Prediction Engine
+# BlueVantage: Informed Fishery Intelligence
 
 ![BlueVantage Logo](logo.png)
 
