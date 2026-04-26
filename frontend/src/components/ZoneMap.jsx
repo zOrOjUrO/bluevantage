@@ -91,8 +91,8 @@ export default function ZoneMap() {
           data: JSON.stringify(zone)
         }
       };
-    });feat: Wire ZoneMap to live API zones data with h3 boundary rendering
-
+    });
+    
     const source = map.current.getSource('zones');
     if (source) {
       source.setData({ type: 'FeatureCollection', features });
