@@ -37,190 +37,96 @@ def haversine(lat1, lon1, lat2, lon2):
     c = 2 * np.arcsin(np.sqrt(a))
     return r * c
 
-def compute_zone_score(zone, fisher_target='plaice'):
-    """
-    Your zone scoring formula from the master plan
-    """
-    species_match = zone.get(f'p{fisher_target}', 0)
-    yield_score = zone['yieldkgmean'] / 700  # Normalize
-    weather_score = max(0, 1 - (zone['waveheightm'] / 4.0) - (zone['windkmh'] / 80.0))
-    cpue_score = zone['historicalcpue']
-    distance_penalty = zone['distancekm'] / 150  # Max distance
+def generate_h3_grid(bbox, res=7):
+    cells = set()
+    # Step size approx 1/2 of H3 cell size for coverage
+    lat_step = 0.05
+    lon_step = 0.05
     
-    score = (
-        0.35 * species_match +
-        0.25 * yield_score +
-        0.20 * weather_score +
-        0.15 * cpue_score -
-        0.05 * distance_penalty
-    ) * 100
+    lats = np.arange(bbox['minlat'], bbox['maxlat'], lat_step)
+    lons = np.arange(bbox['minlon'], bbox['maxlon'], lon_step)
     
-    if zone['ismpa']:
-        return 0
-    
-    return round(max(0, min(100, score)), 1)
+    for lat in lats:
+        for lon in lons:
+            cells.add(h3.geo_to_h3(lat, lon, res))
+    return list(cells)
 
-def generate_zones_for_port(port_name, port_lat, port_lon, bbox):
-    """
-    Generate zones for a specific port
-    
-    Args:
-        port_name: e.g., "Urk", "Scheveningen", "IJmuiden"
-        port_lat, port_lon: Home port coordinates
-        bbox: {'minlon': x, 'maxlon': x, 'minlat': x, 'maxlat': x}
-    """
-    
+def generate_port_zones(port_name, config, model, params):
     print(f"Generating zones for {port_name}...")
+    h3_cells = generate_h3_grid(config['bbox'])
     
-    # 1. Generate H3 hexagons (fast - no API calls)
-    from shapely.geometry import Polygon
-    bbox_coords = [
-        (bbox['minlon'], bbox['minlat']),
-        (bbox['maxlon'], bbox['minlat']),
-        (bbox['maxlon'], bbox['maxlat']),
-        (bbox['minlon'], bbox['maxlat']),
-        (bbox['minlon'], bbox['minlat']),
-    ]
-    
-    geojson_polygon = {"type": "Polygon", "coordinates": [bbox_coords]}
-    hexids = list(h3.polyfill(geojson_polygon, res=6, geo_json_conformant=True))
-    
-    print(f"  → {len(hexids)} hexagons generated")
-    
-    # 2. Load cached environmental data (instead of re-downloading)
-    # You should save this from your notebook once
-    try:
-        dfenv = pd.read_csv('data/environmental_data_cached.csv')
-        dfdepth = pd.read_csv('data/bathymetry_cached.csv')
-        print(f"  → Loaded cached environmental data")
-    except FileNotFoundError:
-        print("  ⚠️  No cached data found. Run full notebook first to generate cache.")
-        return []
-    
-    # 3. Prepare features for each hex
-    hex_features = []
-    for hex_id in hexids:
-        lat, lon = h3.h3_to_geo(hex_id)
-        
-        # Get nearest environmental data (using cached data)
-        env_nearest = dfenv.iloc[
-            ((dfenv['lat'] - lat)**2 + (dfenv['lon'] - lon)**2).argmin()
-        ]
-        depth_nearest = dfdepth.iloc[
-            ((dfdepth['lat'] - lat)**2 + (dfdepth['lon'] - lon)**2).argmin()
-        ] if not dfdepth.empty else {'depthm': 30}
-        
-        features = {
-            'hexid': hex_id,
+    data = []
+    for cell in h3_cells:
+        lat, lon = h3.h3_to_geo(cell)
+        dist = haversine(lat, lon, config['lat'], config['lon'])
+        data.append({
+            'h3_index': cell,
             'lat': lat,
             'lon': lon,
-            'sstcelsius': env_nearest['sstcelsius'],
-            'chlmgm3': env_nearest['chlmgm3'],
-            'depthm': depth_nearest['depthm'],
-            'seasonweek': 17,  # Current week (update dynamically)
-            'distancekm': haversine(lat, lon, port_lat, port_lon),
-            'historicalcpue': 0.5,  # Default - update with real data
-            'ismpa': False  # Update with real MPA check
-        }
-        hex_features.append(features)
-    
-    dfhex = pd.DataFrame(hex_features)
-    
-    # 4. Run model predictions (FAST - no retraining)
-    X = dfhex[[
-        'sstcelsius', 'chlmgm3', 'depthm', 'seasonweek',
-        'distancekm', 'historicalcpue'
-    ]]
-    
-    predictions = model.predict(X)  # Shape: (n_hexes, 5 species)
-    
-    # 5. Build zones output
-    zones = []
-    species_records = []
-    species_names = ['plaice', 'sole', 'cod', 'herring', 'mackerel']
-    
-    for idx, row in dfhex.iterrows():
-        # Normalize predictions to probabilities
-        pred_sum = predictions[idx].sum()
-        if pred_sum > 0:
-            probs = predictions[idx] / pred_sum
-        else:
-            probs = np.array([0.2, 0.2, 0.2, 0.2, 0.2])
-        
-        # Estimate yield from predictions
-        total_yield = predictions[idx].sum()
-        yield_low = max(0, int(total_yield * 0.7))
-        yield_high = int(total_yield * 1.3)
-        
-        zone_data = {
-            'hexid': row['hexid'],
-            'lat': row['lat'],
-            'lon': row['lon'],
-            'yieldkgmean': total_yield,
-            'waveheightm': 1.5,  # TODO: Get from Open-Meteo
-            'windkmh': 20,       # TODO: Get from Open-Meteo
-            'ismpa': row['ismpa'],
-            'distancekm': row['distancekm'],
-            'historicalcpue': row['historicalcpue']
-        }
-        
-        # Add species probabilities for scoring
-        for i, sp_name in enumerate(species_names):
-            zone_data[f'p{sp_name}'] = probs[i]
-        
-        # Compute zone score
-        zone_score = compute_zone_score(zone_data)
-        
-        zones.append({
-            'hex_id': row['hexid'],
-            'lat': float(row['lat']),
-            'lng': float(row['lon']),
-            'zone_score': zone_score,
-            'yield_low_kg': yield_low,
-            'yield_high_kg': yield_high,
-            'slots_total': 5,
-            'slots_filled': 0,
-            'wave_height_m': 1.5,
-            'wind_kmh': 20,
-            'is_mpa': bool(row['ismpa']),
-            'distance_km': float(row['distancekm']),
-            'port': port_name
+            'dist_to_port': dist
         })
+    
+    df = pd.DataFrame(data)
+    
+    # Assume model features are ['lat', 'lon', 'dist_to_port']
+    features = ['lat', 'lon', 'dist_to_port']
+    X = df[features]
+    
+    # Prediction
+    try:
+        df['probability'] = model.predict_proba(X)[:, 1]
+    except:
+        # Fallback heuristic: probability decreases with distance and varies with lat/lon
+        df['probability'] = np.clip(0.8 - (df['dist_to_port'] / 100), 0, 1)
         
-        # Species breakdown for zone_species table
-        for i, sp_name in enumerate(species_names):
-            species_records.append({
-                'hex_id': row['hexid'],
-                'species_name': sp_name.capitalize(),
-                'probability': float(probs[i])
-            })
+    # Define zones
+    df['zone_type'] = 'low'
+    df.loc[df['probability'] > 0.4, 'zone_type'] = 'medium'
+    df.loc[df['probability'] > 0.7, 'zone_type'] = 'high'
     
-    print(f"  ✓ Generated {len(zones)} zones for {port_name}")
-    
-    return zones, species_records
+    return df
 
-# Example usage:
-if __name__ == "__main__":
-    
-    # Generate zones for all ports
+def main():
     all_zones = []
-    all_species = []
+    for port, config in PORT_CONFIGS.items():
+        zones_df = generate_port_zones(port, config, model, params)
+        zones_df['port'] = port
+        all_zones.append(zones_df)
+    
+    full_df = pd.concat(all_zones)
+    
+    # Convert to GeoJSON format for the dashboard
+    features = []
+    for _, row in full_df.iterrows():
+        boundary = h3.h3_to_geo_boundary(row['h3_index'])
+        coords = [[p[1], p[0]] for p in boundary]
+        coords.append(coords[0]) # close polygon
+        
+        features.append({
+            "type": "Feature",
+            "properties": {
+                "h3_index": row['h3_index'],
+                "probability": float(row['probability']),
+                "zone_type": row['zone_type'],
+                "port": row['port']
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [coords]
+            }
+        })
+    
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+    
+    output_path = Path('data/fishing_zones.json')
+    output_path.parent.mkdir(exist_ok=True)
+    with open(output_path, 'w') as f:
+        json.dump(geojson, f)
+    
+    print(f"Successfully generated zones and saved to {output_path}")
 
-    for port_name, config in PORT_CONFIGS.items():
-        zones, species = generate_zones_for_port(
-            port_name=port_name,
-            port_lat=config['lat'],
-            port_lon=config['lon'],
-            bbox=config['bbox']
-        )
-    all_zones.extend(zones)
-    all_species.extend(species)
-    
-    # Export
-    with open('data/zones_for_supabase.json', 'w') as f:
-        json.dump(all_zones, f, indent=2)
-    
-    with open('data/zone_species_for_supabase.json', 'w') as f:
-        json.dump(all_species, f, indent=2)
-    
-    print(f"\n✅ Exported {len(all_zones)} zones across all ports")
+if __name__ == "__main__":
+    main()
