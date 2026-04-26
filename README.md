@@ -149,7 +149,7 @@ COPERNICUSMARINE_SERVICE_PASSWORD: <your-password>
 
 ## 🌐 API Reference
 
-Base URL: `http://localhost:8000` (or your deployed backend URL)
+Base URL: `http://localhost:8000` (Supabase)[https://tnapfawdehztxsqmoeyy.supabase.co]
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
