@@ -309,7 +309,7 @@ Contributions are welcome! Areas for enhancement:
 
 ## 👥 Credits
 
-Developed for the **CASSINI Hackathon** 2026
+Developed for the **CASSINI Hackathon** 2026docs: Update README with roadmap and live model status
 
 **Data Partners:**
 - ICES (International Council for the Exploration of the Sea)
@@ -326,3 +326,20 @@ For issues, questions, or suggestions:
 ---
 
 **Last Updated**: April 2026
+
+## 🔜 Next Steps & Roadmap
+
+1. **Live Model Serving**:
+   - The trained XGBoost model (`xgboost_model.pkl`) is loaded by the FastAPI backend.
+   - Live scores are accessible via `/api/predict/{hex_id}` based on real-time environmental features.
+
+2. **Map Interactivity**:
+   - Frontend `ZoneMap.jsx` is connected to live API data.
+   - Hexagons are rendered with real H3 boundaries and colored by `zonescore`.
+
+3. **Weekly Data Refresh (Planned)**:
+   - Implement a GitHub Action or cron job to re-run the `prediction_engine_urk.ipynb` pipeline every Monday.
+   - This ensures catch probability scores stay current with the latest Copernicus environmental layers and seasonal trends.
+
+4. **Multi-Port Support**:
+   - Expand the operational bounding boxes beyond Urk to cover Den Helder, IJmuiden, and Scheveningen.
