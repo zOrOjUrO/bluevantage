@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# Data
+data/dataset/
+*.nc
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+*credentials*
+supabase_key.txt

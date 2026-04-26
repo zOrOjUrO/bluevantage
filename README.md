@@ -2,327 +2,274 @@
 
 ![BlueVantage Logo](logo.png)
 
-## 🎯 Project Overview
+## Project Overview
 
-**BlueVantage** is an intelligent fishing zone prediction system that uses advanced machine learning and real-time environmental data to identify optimal fishing locations in the North Sea, specifically centered around **Urk Harbor** in the Netherlands. 
+**BlueVantage** is an intelligent fishing zone prediction system that uses advanced machine learning and real-time environmental data to identify optimal fishing locations in the North Sea, specifically centered around **Urk Harbor** in the Netherlands.
 
-This system was developed for the **CASSINI Hackathon** and aims to support sustainable fishing by providing data-driven insights into fish distribution and optimal fishing zones.
+Developed for the **CASSINI Hackathon 2026**, BlueVantage supports sustainable fishing by providing data-driven insights into fish distribution and optimal fishing zones.
 
-## 🌊 About the System
+---
 
-BlueVantage combines multiple data sources to predict catch probability across a spatial H3 hexagonal grid:
+## Architecture Overview
 
-- **ICES DATRAS Data**: Historical catch records from the International Council for the Exploration of the Sea (ICES) database
-- **Copernicus Marine Data**: Real-time and historical Sea Surface Temperature (SST) and Chlorophyll concentrations
-- **EMODnet Data**: Bathymetry (water depth) and Marine Protected Area (MPA) information
-- **Machine Learning Model**: XGBoost classifier trained to predict high-catch probability zones
+BlueVantage is a full-stack application with three layers:
 
-## 📋 Project Structure
+```
+┌─────────────────────────────────────────────┐
+│           Frontend (Vite / React)            │
+│   Mapbox GL · H3-js · Real-time Hex Map      │
+└───────────────────┬─────────────────────────┘
+                    │ REST API
+┌───────────────────▼─────────────────────────┐
+│           Backend (FastAPI / Python)         │
+│   XGBoost Model · Supabase · Telegram Bot    │
+└───────────────────┬─────────────────────────┘
+                    │
+┌───────────────────▼─────────────────────────┐
+│        ML Pipeline (Jupyter Notebook)        │
+│   ICES DATRAS · Copernicus · EMODnet         │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## Repository Structure
 
 ```
 bluevantage/
-├── README.md                           # This file
-└── .git/
-
-bluevantage-api/
-├── main.py                             # FastAPI server
-├── requirements.txt                    # Python dependencies
-├── Procfile                            # Deployment configuration
-├── zones.json                          # Generated fishing zone predictions
-├── sql_create.txt                      # Database schema
-└── __pycache__/
-
-model/
-├── prediction_engine_urk.ipynb        # Main Jupyter notebook with full pipeline
-└── [data files generated at runtime]
-
-dataset/
-└── [Raw data files]
-
-[PDF Documentation]
-├── BlueVantage-ProductSpecs.pdf       # Product specifications
-├── BlueVantage-Master.pdf
-├── BlueVantage-theStartup.pdf
-└── CASSINI - BlueVantage - Report.pdf
+├── README.md
+├── logo.png
+├── frontend/                        # Vite/React app
+│   ├── package.json
+│   └── src/
+├── backend/                         # FastAPI server + XGBoost model
+│   ├── main.py
+│   ├── requirements.txt
+│   └── zones.json                   # Pre-generated zone predictions
+├── model/                           # ML pipeline
+│   └── prediction_engine_urk.ipynb
+└── dataset/                         # Raw data (generated at runtime)
 ```
 
-## 🚀 Quick Start
+---
+
+## Quick Start (Local Development)
 
 ### Prerequisites
 
-- Python 3.8+
-- pip or conda package manager
-- Copernicus Marine Account (for environmental data)
-- ICES DATRAS access (API is public)
+- Python 3.9+
+- Node.js 18+
+- [Copernicus Marine account](https://marine.copernicus.eu/) *(for running the ML pipeline)*
 
-### Installation
+### 1. Start the Backend
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd bluevantage
-   ```
+```bash
+cd backend
+pip install -r requirements.txt
+python main.py
+# API running at http://localhost:8000
+```
 
-2. **Install dependencies**
-   ```bash
-   # For the prediction engine
-   cd model
-   pip install -r requirements.txt
-   
-   # Or use the API requirements
-   cd ../bluevantage-api
-   pip install -r requirements.txt
-   ```
+### 2. Start the Frontend
 
-## 📊 Running the Prediction Engine
+```bash
+cd frontend
+npm install
+npm run dev
+# App running at http://localhost:5173
+```
 
-The core prediction engine is in `model/prediction_engine_urk.ipynb` - a Jupyter notebook that implements the complete pipeline:
+### Environment Variables
 
-### Step 1: Environment Setup
-```jupyter
+Create a `.env` file in `backend/`:
+
+```env
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_key
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+```
+
+Create a `.env` file in `frontend/`:
+
+```env
+VITE_MAPBOX_TOKEN=your_mapbox_token
+VITE_API_URL=http://localhost:8000
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+> **Tip**: Copy `.env.example` in each directory to get started. Never commit `.env` files.
+
+---
+
+## ☁️ Cloud Deployment
+
+### Backend (Railway / Render)
+
+1. Link your GitHub repo and set the root directory to `backend`
+2. Build command: `pip install -r requirements.txt`
+3. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+4. Add environment variables: `SUPABASE_URL`, `SUPABASE_KEY`, `TELEGRAM_BOT_TOKEN`
+
+### Frontend (Vercel)
+
+1. Link your GitHub repo, set framework to **Vite**, root directory to `frontend`
+2. Add environment variables: `VITE_MAPBOX_TOKEN`, `VITE_API_URL`, `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`
+
+---
+
+## Running the ML Pipeline
+
+The prediction engine lives in `model/prediction_engine_urk.ipynb` and generates the `zones.json` consumed by the backend.
+
+```bash
 python -m jupyter notebook model/prediction_engine_urk.ipynb
 ```
 
-### Step 2: Authenticate with Copernicus Marine
-The notebook will prompt for Copernicus credentials:
+Authenticate when prompted:
+
 ```
 COPERNICUSMARINE_SERVICE_USERNAME: <your-email>
 COPERNICUSMARINE_SERVICE_PASSWORD: <your-password>
 ```
 
-### Execution Steps in Notebook
+### Pipeline Steps
 
-1. **Environment Setup** - Install required packages and configure paths
-2. **Download ICES DATRAS Data** - Retrieves historical haul and catch records from ICES
-3. **Fetch Copernicus Marine Data** - Downloads SST and Chlorophyll concentration data (2018-2024)
-4. **EMODnet Integration** - Retrieves bathymetry and MPA boundaries
-5. **H3 Hex Grid Generation** - Creates hexagonal spatial grid at resolution 6
-6. **Spatial Join** - Aggregates all features to hex cells
-7. **Training Dataset Creation** - Prepares data from ICES catch records
-8. **Model Training** - XGBoost classifier for catch probability prediction
-9. **Prediction & Ranking** - Scores all operational zones
-10. **Visualization** - Maps prediction results and model insights
-
-## 🌐 Running the API
-
-The BlueVantage API provides REST endpoints to access fishing zone predictions:
-
-### Start the API Server
-
-```bash
-cd bluevantage-api
-python main.py
-```
-
-Server runs on `http://localhost:8000`
-
-### API Endpoints
-
-#### Health Check
-```bash
-GET /
-```
-Response:
-```json
-{
-  "status": "ok",
-  "message": "Welcome to BlueVantage API"
-}
-```
-
-#### Get All Zones
-```bash
-GET /api/zones
-GET /api/zones?limit=10
-```
-
-#### Get Specific Zone
-```bash
-GET /api/zones/{hex_id}
-```
-
-### Interactive API Documentation
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
-
-## 🔧 Technical Architecture
-
-### Data Pipeline
-
-```
-ICES DATRAS          Copernicus Marine          EMODnet
-    ↓                      ↓                        ↓
-Catch Records    +    SST/Chlorophyll    +    Bathymetry/MPAs
-    ↓                      ↓                        ↓
-    └──────────────────────┴────────────────────────┘
-                           ↓
-                 H3 Hexagonal Grid (Res 6)
-                           ↓
-                 Feature Aggregation
-                           ↓
-                  Training Dataset
-                           ↓
-               XGBoost Classification Model
-                           ↓
-              Fishing Zone Predictions (Probability Scores)
-                           ↓
-                    zones.json Output
-```
-
-### Key Features Used in Model
-
-- **Spatial Features**:
-  - Latitude & Longitude
-  - Distance from Urk Harbor (km)
-  - H3 Hexagon ID
-  - Water Depth (m)
-
-- **Environmental Features**:
-  - Sea Surface Temperature (°C)
-  - Chlorophyll Concentration (mg/m³)
-  - Marine Protected Area Status
-
-- **Temporal Features**:
-  - Season Week
-  - Historical CPUE (Catch Per Unit Effort)
-
-- **Species Tracked**:
-  - Plaice
-  - Sole
-  - Cod
-  - Herring
-  - Mackerel
-
-### Model Details
-
-- **Algorithm**: XGBoost Classifier
-- **Target**: High-catch probability (binary classification)
-- **Training Data**: ICES DATRAS hauls (2018-2024) from North Sea
-- **Operational Area**: 
-  - Latitude: 52.3° - 53.4° N
-  - Longitude: 4.6° - 6.4° E
-  - Center: Urk Harbor (52.662°N, 5.601°E)
-
-## 📦 Output Format
-
-The `zones.json` file contains predictions for all operational hexagons:
-
-```json
-[
-  {
-    "hex_id": "8625cd...",
-    "lat": 52.8,
-    "lon": 5.3,
-    "sst_celsius": 12.5,
-    "chl_mg_m3": 1.2,
-    "depth_m": 25.5,
-    "is_mpa": false,
-    "probability": 0.75,
-    "rank": 1
-  },
-  ...
-]
-```
-
-## 🔐 Required Credentials
-
-### Copernicus Marine
-- Create account at: https://marine.copernicus.eu/
-- Required for SST and Chlorophyll data downloads
-- Accessed via environment variables or notebook prompts
-
-### ICES DATRAS
-- Public API - no credentials required
-- Data accessed via: https://datras.ices.dk/WebServices/
-
-## 📚 Data Sources
-
-| Source | Type | Coverage | Update Frequency |
-|--------|------|----------|-----------------|
-| ICES DATRAS | Historical Catch | 2018-2024 | Annual |
-| Copernicus Marine | SST/Chlorophyll | Monthly | Near-real-time |
-| EMODnet | Bathymetry/MPAs | Static | Annual |
-| Haversine | Distance Calculations | Calculated | Real-time |
-
-## 🛠️ Dependencies
-
-### Core Libraries
-- **pandas**: Data manipulation
-- **numpy**: Numerical computing
-- **xgboost**: Machine learning model
-- **scikit-learn**: ML utilities
-- **geopandas**: Geospatial operations
-- **shapely**: Geometric operations
-- **h3**: Hexagonal binning
-- **scipy**: Scientific computing
-- **requests**: HTTP requests
-- **matplotlib**: Visualization
-- **netCDF4**: NetCDF file handling
-- **copernicusmarine**: Copernicus API client
-
-### API Framework
-- **FastAPI**: Modern Python web framework
-- **uvicorn**: ASGI server
-
-## 🎓 Key Concepts
-
-### H3 Hexagonal Grid
-The model uses Uber's H3 library to create a hexagonal spatial grid at resolution 6, which provides roughly 1.5 km² cells in the operational area. This enables consistent spatial aggregation of catches and environmental data.
-
-### CPUE (Catch Per Unit Effort)
-Historical CPUE is calculated from ICES hauls and normalized between 0-1 to represent the historical productivity of each hex cell.
-
-### Production Mode
-The system runs in "fail-fast" mode - it requires real data from all sources and will not proceed if critical data sources are unavailable.
-
-## 🔄 Workflow Example
-
-1. **Initialize**: Run notebook with Copernicus credentials
-2. **Fetch Data**: Download ICES, Copernicus, and EMODnet data
-3. **Build Features**: Create hex grid with environmental features
-4. **Train Model**: XGBoost classifier learns historical patterns
-5. **Predict**: Score all operational zones
-6. **Export**: Save to `zones.json`
-7. **Serve**: API endpoints provide predictions to frontend
-
-## 📝 Notes
-
-- The operational area is centered on **Urk Harbor** (52.662°N, 5.601°E)
-- Current data covers **2018-2024** period
-- Model generates predictions for **~100+ hexagonal zones** in the North Sea
-- All coordinates use **WGS84 (EPSG:4326)** projection
-
-## 🤝 Contributing
-
-Contributions are welcome! Areas for enhancement:
-
-- Additional species prediction models
-- Real-time data integration
-- Forecast modeling (using weather/climate data)
-- Performance optimization
-- Extended operational areas
-- Mobile app integration
-
-## 📄 License
-
-[Add appropriate license]
-
-## 👥 Credits
-
-Developed for the **CASSINI Hackathon** 2026
-
-**Data Partners:**
-- ICES (International Council for the Exploration of the Sea)
-- Copernicus Marine Service
-- European Marine Observation and Data Network (EMODnet)
-
-## 📞 Support
-
-For issues, questions, or suggestions:
-- Check the PDF documentation files
-- Review notebook comments for implementation details
-- Inspect API logs for debugging
+1. **Environment Setup** — Install packages and configure paths
+2. **Download ICES DATRAS Data** — Historical haul and catch records
+3. **Fetch Copernicus Marine Data** — SST and Chlorophyll (2018–2024)
+4. **EMODnet Integration** — Bathymetry and MPA boundaries
+5. **H3 Hex Grid Generation** — Hexagonal spatial grid at resolution 6
+6. **Spatial Join** — Aggregate all features to hex cells
+7. **Model Training** — XGBoost classifier on historical CPUE data
+8. **Prediction & Ranking** — Score all operational zones
+9. **Export** — Write `zones.json` to `backend/`
 
 ---
 
-**Last Updated**: April 2026
+## 🌐 API Reference
+
+Base URL: `http://localhost:8000` (Supabase)[https://tnapfawdehztxsqmoeyy.supabase.co]
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/` | Health check |
+| `GET` | `/api/zones` | All zone predictions |
+| `GET` | `/api/zones?limit=10` | Paginated zones |
+| `GET` | `/api/zones/{hex_id}` | Single zone by hex ID |
+
+Interactive docs: [`/docs`](http://localhost:8000/docs) (Swagger UI) · [`/redoc`](http://localhost:8000/redoc)
+
+### Zone Object
+
+```json
+{
+  "hex_id": "8625cd...",
+  "lat": 52.8,
+  "lon": 5.3,
+  "sst_celsius": 12.5,
+  "chl_mg_m3": 1.2,
+  "depth_m": 25.5,
+  "is_mpa": false,
+  "probability": 0.75,
+  "rank": 1
+}
+```
+
+---
+
+## 🔧 Model Details
+
+**Algorithm**: XGBoost Classifier (binary: high-catch probability)
+**Training data**: ICES DATRAS hauls 2018–2024, North Sea
+**Operational area**: 52.3°–53.4°N, 4.6°–6.4°E (center: Urk Harbor 52.662°N, 5.601°E)
+**Grid resolution**: H3 level 6 (~1.5 km² per cell), ~100+ zones
+
+### Features
+
+| Category | Features |
+|----------|----------|
+| Spatial | Lat/lon, distance from Urk (km), H3 ID, depth (m) |
+| Environmental | SST (°C), Chlorophyll (mg/m³), MPA status |
+| Temporal | Season week, historical CPUE (normalized 0–1) |
+
+**Species tracked**: Plaice, Sole, Cod, Herring, Mackerel
+
+---
+
+## 📚 Data Sources
+
+| Source | Type | Coverage | Frequency |
+|--------|------|----------|-----------|
+| [ICES DATRAS](https://datras.ices.dk/WebServices/) | Historical catch | 2018–2024 | Annual |
+| [Copernicus Marine](https://marine.copernicus.eu/) | SST / Chlorophyll | Monthly | Near-real-time |
+| [EMODnet](https://emodnet.ec.europa.eu/) | Bathymetry / MPAs | Static | Annual |
+
+---
+
+## 🎓 Key Concepts
+
+**H3 Hexagonal Grid**: Uber's H3 at resolution 6 provides ~1.5 km² cells for consistent spatial aggregation of catch and environmental data.
+
+**CPUE (Catch Per Unit Effort)**: Derived from ICES hauls and normalized 0–1 to represent historical zone productivity. Used as the primary training signal.
+
+**Fail-fast mode**: The pipeline requires real data from all sources — it will not proceed if any critical source is unavailable.
+
+---
+
+## 🔜 Roadmap
+
+- [x] Live XGBoost model integration
+- [x] Real-time H3 hexagon map (Mapbox)
+- [ ] Automated weekly data refresh (Copernicus / ICES via GitHub Actions)
+- [ ] Expanded port support (Den Helder, IJmuiden, Scheveningen)
+- [ ] Telegram bot alerts for high-probability zones
+- [ ] Species-specific prediction layers
+- [ ] Mobile app integration
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome. Areas for enhancement: additional species models, real-time data integration, forecast modeling with weather data, performance optimization, and extended operational areas.
+
+Please open an issue before submitting a PR for large changes.
+
+---
+
+## 👥 Credits
+
+Developed for **CASSINI Hackathon 2026**
+
+**Data Partners:**
+- [ICES](https://www.ices.dk) — International Council for the Exploration of the Sea
+- [Copernicus Marine Service](https://marine.copernicus.eu/)
+- [EMODnet](https://emodnet.ec.europa.eu/) — European Marine Observation and Data Network
+
+## 📄 License
+
+The MIT License (MIT)
+
+Copyright (c) 2011-2026 The Bootstrap Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---
+
+*Last updated: April 2026*
